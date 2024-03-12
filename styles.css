@@ -1,9 +1,9 @@
 html {
     background: linear-gradient(rgb(145, 177, 216),rgb(231, 190, 163),rgb(206, 175, 218),rgb(145, 177, 216));
-    background-size: cover;
+    background-size: contain;
 }
 body {
-    max-width:1000px;
+    max-width:1080px;
     margin:auto;
     background-color: aquamarine;
     border-radius: 10px;
@@ -12,6 +12,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    align-content:center;
 }
 header {
     background-color: black;
@@ -22,6 +23,39 @@ header {
     border-radius: 10px;
     border: 4px #dee9f0 solid;
 }
+
 header i {
     color:yellow;
+}
+ul {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+ul li{
+    padding: 10px;
+    margin: -1px;
+    border: #546c71 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(199, 199, 199));
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.dropdowns {
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border:#546c71 2px solid;
+    padding:10px;
+    margin:9px;
+    margin-top:-27px;
+    background: #ffffff;
+    color:navy;
+}
+.whereTo a {
+    color:navy;
+    text-decoration: none;
+}
+.clickedBtn {
+    border-bottom: #00000000;
+    background: #ffffff;
 }
