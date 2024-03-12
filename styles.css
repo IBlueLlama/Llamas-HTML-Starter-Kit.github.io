@@ -14,7 +14,6 @@ body {
     font-style: normal;
 }
 header {
-    margin: auto;
     background-color: black;
     padding: 10px;
     color: white;
@@ -25,7 +24,4 @@ header {
 }
 header i {
     color:yellow;
-}
-h1 {
-    color:blue;
 }
