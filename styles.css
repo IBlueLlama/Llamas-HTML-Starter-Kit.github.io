@@ -1,10 +1,14 @@
 html {
-    background: linear-gradient(rgb(145, 177, 216),rgb(234, 200, 177),rgb(145, 177, 216));
+    background: linear-gradient(rgb(145, 177, 216),rgb(231, 190, 163),rgb(206, 175, 218),rgb(145, 177, 216));
     background-size: cover;
 }
 body {
     max-width:1000px;
     margin:auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 4px #546c71 solid;
+    padding:10px;
 }
 header {
     margin: auto;
