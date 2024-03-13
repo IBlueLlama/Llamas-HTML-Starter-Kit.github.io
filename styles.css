@@ -16,9 +16,9 @@ body {
 }
 header {
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     border-radius: 10px;
     border: 4px #dee9f0 solid;
@@ -50,6 +50,19 @@ ul li{
     margin-top:-27px;
     background: #ffffff;
     color:navy;
+}
+.aboutMe {
+    max-height: 250px;
+}
+.whyMade {
+    max-height: 250px;
+}
+.whereTo {
+    max-height: 250px;
+}
+.popup {
+    position:absolute;
+    top:0px;
 }
 .whereTo a {
     color:navy;
