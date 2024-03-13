@@ -47,7 +47,7 @@ ul li{
     border:#546c71 2px solid;
     padding:10px;
     margin:9px;
-    margin-top:-27px;
+    margin-top:-28px;
     background: #ffffff;
     color:navy;
 }
@@ -81,3 +81,40 @@ ul li{
 .breif {
     display: flex;
 }
+
+/* ------------------------- */
+/* Column Based Design Below */
+/* ------------------------- */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+  [class*="col"] {
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  .col {
+    flex: 1;
+  }
+  .col-1 {width: 8.333%;}
+  .col-2 {width: 16.666%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.333%;}
+  .col-5 {width: 41.666%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.333%;}
+  .col-8 {width: 66.666%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.333%;}
+  .col-11 {width: 91.666%;}
+  .col-12 {width: 100%;}
+  
+  /* Alignment */
+  .center-main {
+    justify-content: center;
+  }
+  .center-cross {
+    align-items: center;
+  }

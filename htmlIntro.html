@@ -1,38 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- No CSS??? (It's for the demo) -->
     <!-- Favicon + Tab Title-->
-    <link rel="shortcut icon" href="img/htmlIcon.png"/>
+    <link rel="shortcut icon" href="img/htmlIcon.png" />
     <title>HTML Intro</title>
-    </head>
+</head>
 <body">
-<header>
-    <h3 id="colan3" hidden>>:3</h3>
-    <h1><i class="fa-solid fa-code" id="htmlThingy"></i> HTML Introduction</h1>
-    <button href="index.html"> <--- Back</button>
-</header>
-<h4>There is no CSS on this page, we will get to that later</h4>
-<br>
-<hr>
-<br>
-   <h3>What is HTML?</h3>
-   <p>HTML is the skeleton of your webpage, it will be where you type the most important information that will make up the webpage that you create. Without HTML your webpage would never be able to take shape, just like if I took your bones you would be all meat and no bones... Anyways as I was saying, HTML holds all of the most important information, it will hold your paragraphs of text, the images and links you use. It will also contain the information the browser will need, like the lanugage or the document type.</p>
-   <h3>Notes Prior to Starting</h3>
-   <p>A common joke in the coding fields is, "Don't reinvent the wheel", I have no idea where this came from but it definetly is something to note. In HTML, CSS, and jQuery, there is a lot of repetition, so for a future note, I'd recommend making a template for yourself that you may use later on(Index.html actually uses my own template and the first 3 intro pages are direct copies of index.html). If I remember to link my template, I will, odds are I will forget :/</p>
-   <h3>Getting Started</h3>
-   <p>There are many different tags in HTML, and I mean a LOT! But they are all pretty straight forward and simply require a small amount of memorization.</p>
-   <h3>How do the Tags work?</h3>
-   <p>In theory, it is simple. You open that tag with whatever then close it shortly after. For example, you would open a paragraph tag with < p > then you would type whatever you want, then you would close the tag with < /p ></p>
-   <p>< p > This is an example < /p ></p>
-   <ul>
-    <!-- H1-H6 Information -->
-    <li><h4>< h1 ></h4><p>This is a header tag, it can range from h1 to h6. The larger the number, the small the font size(h1 being the largest, and h6 being the smallest). This is typically used for titles.</p></li>
-    <li><h4>< p ></h4><p>This is a paragraph tag, it is used to store generic text that would span, well, paragraphs.</p></li>
-    <li><h4></h4></li>
-   </ul>
+    <header>
+        <h3 id="colan3" hidden>>:3</h3>
+        <h1><i class="fa-solid fa-code" id="htmlThingy"></i> HTML Introduction<image src="img/htmlIcon.png" width="28px"></image></h1>
+        <button href="index.html"> <--- Back</button>
+        <h4>There is no CSS on this page, we will get to that later</h4>
+    </header>
+    <br>
+    <hr>
+    <br>
+    <h3>What is HTML?</h3>
+    <p>HTML is the skeleton of your webpage, it will be where you type the most important information that will make up
+        the webpage that you create. Without HTML your webpage would never be able to take shape, just like if I took
+        your bones you would be all meat and no bones... Anyways as I was saying, HTML holds all of the most important
+        information, it will hold your paragraphs of text, the images and links you use. It will also contain the
+        information the browser will need, like the lanugage or the document type.</p>
+    <h3>Notes Prior to Starting</h3>
+    <p>A common joke in the coding fields is, "Don't reinvent the wheel", I have no idea where this came from but it
+        definetly is something to note. In HTML, CSS, and jQuery, there is a lot of repetition, so for a future note,
+        I'd recommend making a template for yourself that you may use later on(Index.html actually uses my own template
+        and the first 3 intro pages are direct copies of index.html). If I remember to link my template, I will, odds
+        are I will forget :/</p>
+    <h3>Getting Started</h3>
+    <p>There are many different tags in HTML, and I mean a LOT! But they are all pretty straight forward and simply
+        require a small amount of memorization.</p>
+    <h3>How do the Tags work?</h3>
+    <p>In theory, it is simple. You open that tag with whatever then close it shortly after. For example, you would open
+        a paragraph tag with < p> then you would type whatever you want, then you would close the tag with < /p>
+    </p>
+    <p>
+        < p> This is an example < /p>
+    </p>
+    <ul>
+        <!-- H1-H6 Information -->
+        <li>
+            <h4>
+                < h1 >
+            </h4>
+            <p>This is a header tag, it can range from h1 to h6. The larger the number, the small the font size(h1 being
+                the largest, and h6 being the smallest). This is typically used for titles. Just to make my life easier, imma be calling these Hx tags, the x is to represent the 6 variaties of h tags(Or I'll forget to use this term).</p>
+        </li>
+        <!-- P Tag Information -->
+        <li>
+            <h4>
+                < p >
+            </h4>
+            <p>This is a paragraph tag, it is used to store generic text that would span, well, paragraphs.</p>
+        </li>
+        <!-- A Tag Information -->
+        <li>
+            <h4>
+                < a >
+            </h4>
+                <p>This is the a tag, using Href, you can link it to outside sources</p>
+                <p>Ex: < a href="<a href="https://pizzatower.fandom.com/wiki/Peppino/Gallery?file=OH_GOD_OH_MAN.gif">PlaceholderLink</a>" >Placeholder text < /a ></p>
+        </li>
+        <!-- Text-Decoration Information -->
+        <li>
+            <h4>
+                <u>< u ></u> <em>< em ></em> <b>< b ></b> <s>< </s>s<s> ></s>
+            </h4>
+            <p>These 4 tags are for text decorations, you may use them inside of things like p and Hx tags to give them some <b>flair</b>. The u tag will <u>underline</u> the text within the tag. The em(Emphasize) tag will <em>italicize</em> the text within. The b tag will <b>Bold</b> the text within. Finally the s tag will <s>Strikethrough</s> the text within</p>
+            <p>Just a note, all of these decorations can also be applied in CSS. :P</p>
+        </li>
+        <!-- Image Information -->
+        <li>
+            <h4>
+                < image >
+            </h4>
+                <p>the image tag can be used to display images within your webpage, these images can vary from jpegs to gifs(gif or jif?). You set the image via "src" and then set it equal to the image(src="x"). You can set the width and height of the image within the tag(use a % to scale a percent of the screen or set an absolute value of pixels using px).
+                </p>
+                <image src="img/what.jpg" width=25% height="300px"></image>
+                <p>The example above ^^^</p>
+                <p>
+                    < image src="img/what.jpg" width=25% height="300px"></image ></p>
+        </li>
+        <li>
+            <h4>
+                < video >
+            </h4>
+            <p>Use the video tag, to load video, please dont spam them, please... no.</p>
+            <p>This tag is a little weird, you type the width, height and generic settings on the video tag. Then within the video tag you make a source tag and give that the video link and it's type.</p>
+            <p>
+                <video width="192px" height="108px" controls>
+                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+                </video>
+                <video width="192px" height="108px" controls>
+                    <source src="vid/what.mp4">
+                </video>
+            </p>
+        </li>
+    </ul>
 
     <!---------------->
     <!-- JS SCRIPTS -->
@@ -43,5 +111,6 @@
     <script src="main.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/62b11c3fb1.js" crossorigin="anonymous"></script>
-</body>
+    </body>
+
 </html>
