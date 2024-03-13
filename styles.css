@@ -3,7 +3,7 @@ html {
     background-size: contain;
 }
 body {
-    max-width:1080px;
+    max-width:540px;
     margin:auto;
     background-color: aquamarine;
     border-radius: 10px;
@@ -34,7 +34,7 @@ ul {
 }
 ul li{
     padding: 10px;
-    margin: -1px;
+    margin-left: -1px;
     border: #546c71 2px solid;
     border-radius: 10px;
     background: linear-gradient(rgb(255, 255, 255),rgb(199, 199, 199));
@@ -63,6 +63,9 @@ ul li{
 .popup {
     position:absolute;
     top:0px;
+    border:2px #546c71 solid;
+    border-radius: 5px;
+    background:#546c7180
 }
 .whereTo a {
     color:navy;
@@ -71,4 +74,10 @@ ul li{
 .clickedBtn {
     border-bottom: #00000000;
     background: #ffffff;
+}
+.rotated {
+    transform: rotate(90deg);
+}
+.breif {
+    display: flex;
 }

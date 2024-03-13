@@ -1,6 +1,6 @@
 console.log("Hello World!");
 //$("Select Item").What happens(What happens pt.2)
-$("#Template").text("Hello Human o/");
+$("#hewo").text("Hello Human o/");
 // Main Menu Dropdown(Probably a better way to do this)
 $(".aboutMeBtn").click(function () { 
     $(".whyMade").hide();
@@ -39,4 +39,16 @@ $("#sus").mouseenter (function () {
 });
 $("#sus").mouseleave(function () { 
     $("#red").hide();
+});
+$("#htmlInfoBtn").click(function (){
+    $("#htmlInfo").slideToggle();
+    $("#htmlInfoBtn i").toggleClass("rotated");
+});
+$("#cssInfoBtn").click(function (){
+    $("#cssInfo").slideToggle();
+    $("#cssInfoBtn i").toggleClass("rotated");
+});
+$("#jqueryInfoBtn").click(function (){
+    $("#jqueryInfo").slideToggle();
+    $("#jqueryInfoBtn i").toggleClass("rotated");
 });
