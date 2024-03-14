@@ -5,7 +5,7 @@ html {
 body {
     max-width:540px;
     margin:auto;
-    background-color: aquamarine;
+    background-color: #70ffe7;
     border-radius: 10px;
     border: 4px #546c71 solid;
     padding:10px;
@@ -80,6 +80,9 @@ ul li{
 }
 .breif {
     display: flex;
+    margin-top:-20px;
+    background: #7cffe8;
+    border-radius: 20px;
 }
 .button {
     padding:5px;
@@ -97,6 +100,25 @@ ul li{
     padding-left: 18px;
     padding-right: 18px;
     background: #eaeaea;
+}
+#infoBoxesBtn,#jkBtn{
+    background:#9cffee;
+    border-radius: 20px;
+    padding:20px;
+    margin-top:-25px;
+    text-decoration: none;
+    color:black;
+    cursor:pointer;
+}
+.home {
+    color:white;;
+    text-decoration: none;
+    background: #000044;
+    border-radius: 10px;
+    padding:5px;
+    position: absolute;
+    top:0px;
+    left:0px;
 }
 /* ------------------------- */
 /* Column Based Design Below */

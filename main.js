@@ -40,6 +40,14 @@ $("#sus").mouseenter (function () {
 $("#sus").mouseleave(function () { 
     $("#red").hide();
 });
+$("#infoBoxesBtn").click(function (){
+    $("#infoBoxes").slideToggle();
+    $("#infoBoxesBtn i").toggleClass("rotated");
+});
+$("#setupInfoBtn").click(function (){
+    $("#setupInfo").slideToggle();
+    $("#setupInfoBtn i").toggleClass("rotated");
+});
 $("#htmlInfoBtn").click(function (){
     $("#htmlInfo").slideToggle();
     $("#htmlInfoBtn i").toggleClass("rotated");
