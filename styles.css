@@ -81,7 +81,23 @@ ul li{
 .breif {
     display: flex;
 }
-
+.button {
+    padding:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:#546c71 2px solid;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+.button:hover {
+    padding:7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: #eaeaea;
+}
 /* ------------------------- */
 /* Column Based Design Below */
 /* ------------------------- */
