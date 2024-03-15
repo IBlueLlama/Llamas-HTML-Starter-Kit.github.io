@@ -2,6 +2,28 @@ html {
     background: linear-gradient(rgb(145, 177, 216),rgb(231, 190, 163),rgb(206, 175, 218),rgb(145, 177, 216));
     background-size: contain;
 }
+nav {
+    background: #111720;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: #aaaaaa 3px solid;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    color: white;
+    height:75px;
+    max-height: 75px;
+    display:inline;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav img {
+    border-radius: 100px;
+}
 body {
     max-width:540px;
     margin:auto;

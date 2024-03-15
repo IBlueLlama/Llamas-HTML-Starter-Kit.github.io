@@ -9,6 +9,20 @@
     <link rel="shortcut icon" href="img/htmlIcon.png" />
     <title>HTML Intro</title>
 </head>
+<!-- Nav Bar -->
+<nav>
+    <div class="row">
+        <div class="col-2">
+            <h2><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></h2>
+        </div>
+        <div class="col-8">
+            <h2><a href="setupIntro.html"><i class="fa-solid fa-file"></i> Setup,</a> <a href="htmlIntro.html"><i class="fa-solid fa-code"></i> HTML,</a> <a href="cssIntro.html"><i class="fa-solid fa-hashtag"></i> CSS,</a> <a href="jqueryIntro.html"><i class="fa-brands fa-js"></i> jQuery</a></h2>
+        </div>
+        <div class="col-2">
+            <a target="_blank" href="https://b-llama.carrd.co/"><image src="img/TheBoy.png" height="75px"></image></a>
+        </div>
+    </div>
+</nav>
 <body>
     <header>
         <h3 id="colan3" hidden>>:3</h3>
@@ -36,28 +50,29 @@
         require a small amount of memorization.</p>
     <h3>How do the Tags work?</h3>
     <p>In theory, it is simple. You open that tag with whatever then close it shortly after. For example, you would open
-        a paragraph tag with < p> then you would type whatever you want, then you would close the tag with < /p>
-    </p>
-    <p>
-        < p> This is an example < /p>
+        a paragraph tag with < p > then you would type whatever you want, then you would close the tag with < /p > <br>
+        < p > This is an example < /p >
+        <br>You can also add onto the tags info by typing within the first tag!<br>
+        < p class="bob" height="100px" > This is another example< /p >
+        <hr>
     </p>
     <ul>
-        <!-- H1-H6 Information -->
+        <!-- All 6 of the h tags -->
         <li>
             <h4>
-                < h1 >
+                < h1 >  -  < h6 >
             </h4>
             <p>This is a header tag, it can range from h1 to h6. The larger the number, the small the font size(h1 being
-                the largest, and h6 being the smallest). This is typically used for titles. Just to make my life easier, imma be calling these Hx tags, the x is to represent the 6 variaties of h tags(Or I'll forget to use this term).</p>
+                the largest, and h6 being the smallest). This is typically used for titles. Just to make my life easier, imma be calling these Hx tags, the x is to represent the 6 variaties of h tags(Or I'll forget to use this term. People also refer to it has the H tags).</p>
         </li>
-        <!-- P Tag Information -->
+        <!-- The p Tag -->
         <li>
             <h4>
                 < p >
             </h4>
             <p>This is a paragraph tag, it is used to store generic text that would span, well, paragraphs.</p>
         </li>
-        <!-- A Tag Information -->
+        <!-- The a Tag -->
         <li>
             <h4>
                 < a >
@@ -65,7 +80,7 @@
                 <p>This is the a tag, using Href, you can link it to outside sources</p>
                 <p>Ex: < a href="<a href="https://pizzatower.fandom.com/wiki/Peppino/Gallery?file=OH_GOD_OH_MAN.gif">PlaceholderLink</a>" >Placeholder text < /a ></p>
         </li>
-        <!-- Text-Decoration Information -->
+        <!-- Text-Decorations -->
         <li>
             <h4>
                 <u>< u ></u> <em>< em ></em> <b>< b ></b> <s>< </s>s<s> ></s>
@@ -73,29 +88,31 @@
             <p>These 4 tags are for text decorations, you may use them inside of things like p and Hx tags to give them some <b>flair</b>. The u tag will <u>underline</u> the text within the tag. The em(Emphasize) tag will <em>italicize</em> the text within. The b tag will <b>Bold</b> the text within. Finally the s tag will <s>Strikethrough</s> the text within</p>
             <p>Just a note, all of these decorations can also be applied in CSS. :P</p>
         </li>
-        <!-- Image Information -->
+        <!-- Line Breaks -->
+        <li>
+            <h4>< br > < hr ></h4>
+            <p>The br tag is used for making a line break in the page. It basically just cuts to the next line when used.<br>The hr tag is basically the same but instead of being an empty line, it now has a line through it.<hr></p>
+
+        </li>
+        <!-- Images -->
         <li>
             <h4>
                 < image >
             </h4>
-                <p>the image tag can be used to display images within your webpage, these images can vary from jpegs to gifs(gif or jif?). You set the image via "src" and then set it equal to the image(src="x"), you can use downloaded images or images out there on the internet. You can set the width and height of the image within the tag(use a % to scale a percent of the screen or set an absolute value of pixels using px).
+                <p>the image tag can be used to display images within your webpage, these images can vary from jpg's to gif's(gif or jif?). You set the image via "src" and then set it equal to the image(src="x"), you can use downloaded images or images out there on the internet. You can set the width and height of the image within the tag(use a % to scale a percent of the screen or set an absolute value of pixels using px).
                 </p>
-                <image src="img/what.jpg" width=25% height="300px"></image>
+                <aside><image src="img/charizard.webp" width=25% height="300px"></image></aside>
                 <p>The example above ^^^</p>
-                <p>
-                    < image src="img/what.jpg" width=25% height="300px"></image ></p>
+                <p>< image src="img/charizard.webp" width=25% height="300px"><br>If you are to expand or shrink the window, the width of the image will change</p>
         </li>
-        <!-- Video Information -->
+        <!-- Videos -->
         <li>
             <h4>
                 < video >
             </h4>
-            <p>Use the video tag, to load video, please dont spam them, please... no.</p>
+            <p>Use the video tag to load videos. please dont spam them, please... no.</p>
             <p>This tag is a little weird, you type the width, height and generic settings on the video tag. Then within the video tag you make a source tag and give that the video link and it's type.</p>
             <p>
-                <video width="192px" height="108px" controls>
-                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
-                </video>
                 <video width="192px" height="108px" controls>
                     <source src="vid/what.mp4">
                 </video>
