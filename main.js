@@ -1,4 +1,5 @@
 console.log("Hello World!");
+$("nav").hide();
 //$("Select Item").What happens(What happens pt.2)
 $("#hewo").text("Hello Human o/");
 // Main Menu Dropdown(Probably a better way to do this)
@@ -43,6 +44,7 @@ $("#sus").mouseleave(function () {
 $("#infoBoxesBtn").click(function (){
     $("#infoBoxes").slideToggle();
     $("#infoBoxesBtn i").toggleClass("rotated");
+    $("nav").fadeIn();
 });
 $("#setupInfoBtn").click(function (){
     $("#setupInfo").slideToggle();
