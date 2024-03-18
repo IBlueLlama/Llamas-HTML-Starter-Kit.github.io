@@ -16,6 +16,8 @@ nav {
     max-height: 75px;
     display:inline;
     text-align: center;
+    border-top: 0px;
+    margin-top: -1px;
 }
 nav a{
     color: white;
@@ -23,10 +25,12 @@ nav a{
 }
 nav img {
     border-radius: 100px;
+    border: #aaaaaa 3px solid;
 }
 body {
     max-width:540px;
     margin:auto;
+    margin-top:75px;
     background-color: #70ffe7;
     border-radius: 10px;
     border: 4px #546c71 solid;
@@ -48,6 +52,10 @@ header {
 
 header i {
     color:yellow;
+}
+#colan3 {
+    margin-top: -8px;
+    color: yellow;
 }
 ul {
     display: flex;
@@ -142,6 +150,9 @@ ul li{
     position: absolute;
     top:0px;
     left:0px;
+}
+#bob b {
+    font-size:6px;
 }
 /* ------------------------- */
 /* Column Based Design Below */

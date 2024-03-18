@@ -1,5 +1,4 @@
 console.log("Hello World!");
-$("nav").hide();
 //$("Select Item").What happens(What happens pt.2)
 $("#hewo").text("Hello Human o/");
 // Main Menu Dropdown(Probably a better way to do this)
@@ -11,13 +10,11 @@ $(".aboutMeBtn").click(function () {
     $(".whyMadeBtn").removeClass("clickedBtn");
     $(".whereToBtn").removeClass("clickedBtn");
 });
-$("header").mouseover(function () { 
-    $("#htmlThingy").hide();
+$("header").mouseover(function () {
     $("#colan3").show();
 });
 $("header").mouseleave(function () { 
     $("#colan3").hide();
-    $("#htmlThingy").show();
 });
 $(".whyMadeBtn").click(function () { 
     $(".aboutMe").hide();
@@ -61,4 +58,8 @@ $("#cssInfoBtn").click(function (){
 $("#jqueryInfoBtn").click(function (){
     $("#jqueryInfo").slideToggle();
     $("#jqueryInfoBtn i").toggleClass("rotated");
+});
+$("#setupBtn").click(function (){
+    $(".setup").slideToggle();
+    $("#setupBtn i").toggleClass("rotated");
 });

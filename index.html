@@ -18,7 +18,7 @@
 <nav>
     <div class="row">
         <div class="col-2">
-            <h2><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></h2>
+            <h2><a href="/index.html"><i class="fa-solid fa-house"></i> Home</a></h2>
         </div>
         <div class="col-8">
             <h2><a href="setupIntro.html"><i class="fa-solid fa-file"></i> Setup,</a> <a href="htmlIntro.html"><i class="fa-solid fa-code"></i> HTML,</a> <a href="cssIntro.html"><i class="fa-solid fa-hashtag"></i> CSS,</a> <a href="jqueryIntro.html"><i class="fa-brands fa-js"></i> jQuery</a></h2>
@@ -30,9 +30,9 @@
 </nav>
 <!-- Body -->
 <body>
-    <header><i class="fa-solid fa-code" id="htmlThingy"></i>
-        <h3 id="colan3" hidden>>:3</h3>
-        <p>Learn Webpage Development</p>
+    <header>
+        <h3 id="colan3" hidden>:3</h3>
+        <h3><i class="fa-solid fa-code" class="htmlThingy"></i> Learn Webpage Development <i class="fa-solid fa-code" class="htmlThingy"></i></h3>
     </header>
     <h1 id="hewo">Omg no way, hewo :3</h1>
     <ul>
@@ -55,8 +55,7 @@
             <p>This was made for 2 reasons, one as a gift for anyone that it finds, and two, as a reminder for future me
                 on how to make a list item. I hope this can aid whoever that this finds, I will admit, this is the first
                 thing I'm writing on this page so even I don't know what to find within these pages. But I will say my
-                goal is to teach whoever reads this the basics to HTML, CSS, and jQuery(not Javascript, it's basically
-                jQuery but harder).</p>
+                goal is to teach whoever reads this the basics to HTML, CSS, and jQuery(not teaching javascript because jQuery is basically javascript but easier).</p>
         </div>
         <div class="whereTo" hidden>
             <h2>Where to?</h2>
@@ -80,7 +79,7 @@
     <div class="breif" id="setupInfoBtn">
         <h4><u><i class="fa-solid fa-arrow-right"></i> Brief summary:</u></h4>
     </div>
-<p id="setupInfo" hidden>This is where you'll learn the basics to setting up your webpage.</p>
+<p id="setupInfo" hidden>This is where you'll learn the basics to setting up your webpage. You'll also find a template I made within :D</p>
 <a href="setupIntro.html" class="button">Click to go to Page!</a>
 
     <h2><u>Part 1:</u> <i class="fa-solid fa-code"></i> HTML (Easy)</h2>
@@ -122,6 +121,10 @@
     <script src="main.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/62b11c3fb1.js" crossorigin="anonymous"></script>
-    </body>
+    <!-- This page only js -->
+    <script>
+        $("nav").hide();
+    </script>
+</body>
 
 </html>
