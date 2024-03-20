@@ -40,6 +40,9 @@ body {
     font-style: normal;
     align-content:center;
 }
+#THICK {   
+    max-width:800px;
+}
 header {
     background-color: black;
     padding: 7px;
@@ -57,12 +60,12 @@ header i {
     margin-top: -8px;
     color: yellow;
 }
-ul {
+.wide ul {
     display: flex;
     padding: 10px;
     list-style: none;
 }
-ul li{
+.wide ul li{
     padding: 10px;
     margin-left: -1px;
     border: #546c71 2px solid;
@@ -153,6 +156,14 @@ ul li{
 }
 #bob b {
     font-size:6px;
+}
+.CSSIntroTag {
+    text-decoration: none;
+    color:black;
+}
+.thinBorder {
+    border:black 1px solid;
+    padding:2px;
 }
 /* ------------------------- */
 /* Column Based Design Below */

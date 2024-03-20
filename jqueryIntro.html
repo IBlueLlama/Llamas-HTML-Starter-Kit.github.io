@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Favicon + Tab Title-->
-    <link rel="shortcut icon" href="img/hrm.png"/>
+    <link rel="shortcut icon" href="img/js-logo.webp"/>
     <title>HTML Ultra-Cut</title>
     </head>
     <!-- Nav Bar -->
@@ -23,15 +23,52 @@
                 <h2><a href="setupIntro.html"><i class="fa-solid fa-file"></i> Setup,</a> <a href="htmlIntro.html"><i class="fa-solid fa-code"></i> HTML,</a> <a href="cssIntro.html"><i class="fa-solid fa-hashtag"></i> CSS,</a> <a href="jqueryIntro.html"><i class="fa-brands fa-js"></i> jQuery</a></h2>
             </div>
             <div class="col-2">
-                <a target="_blank" href="https://b-llama.carrd.co/"><image src="img/TheBoy.png" height="75px"></image></a>
+                <a target="_blank" href="https://b-llama.carrd.co/"><image src="img/TheBoy.png" height="70px"></image></a>
             </div>
         </div>
     </nav>
-<body>
+<body class="wide">
 <header>
     <h3 id="colan3" hidden>>:3</h3>
     <h3><i class="fa-brands fa-js" class="htmlThingy"></i> The Final Boss, jQuery <i class="fa-brands fa-js" class="htmlThingy"></i></h3></header>
-   
+    <h2>jQuery?</h2>
+    <p>Why jQuery? I mean, Javascript is already supported by HTML, why use jQuery instead? Well, jQuery is a simplified version of Javascript so you can save time writing code rather than taking forever to type something simple. Overall, jQuery is Javascript but simple.</p>
+    <p>Make sure to have your main.js linked to your HTML page and also your jQuery insert script.</p>
+    <image src="img/jQueryCode.png" width="100%"></image>
+    <hr>
+    <h4>"Hello World!"</h4>
+    <p>The first thing you do is to print "Hello World!" into the console. So let's do that now!</p>
+    <div class="row">
+        <div class="col-8">
+            <p>First things first, to open the console. Within the browser you are using, right click anywhere and look for the inspect option. This will open your HTML that is currently open within the browser. Now at the top of this window that has now appeared, you are going to click console and it will reveal, well the console...</p>
+            <p>Now in another window we are going to open our main.js code. Again, make sure it is linked properly(shown above). Within main.js type the following <u>console.log("Hello World!");</u></p>
+        </div>
+        <div class="col-4">
+            <image src="img/inspect.png" width="100%"></image>
+            <image src="img/FindConsole.png" width="100%"></image>
+        </div>
+    </div>
+    <p>Reload the page and check if your code has worked. If it has, you'll see your message in console.</p>
+    <hr>
+    <p>Quick Note: If you are using VS Code, I would HIGHLY recommend you install the jQuery snippets extension, it is a HUGE time saver plus saves my butt everytime I forget a small bit of code :D</p>
+    <image src="img/jQuery snippets.png" width="100%"></image>
+    <hr>
+    <h3>Hide and Show!</h3>
+    <p>Sadly this isn't show and tell but with jQuery, we can hide and show things at will. First we will type a $ followed by () with "" inside, within the "" will be the target of choice and similar to CSS we can target a tag, class, or ID. after we enter that, we will type a . and then hide or show(your choice) after the ()'s. After the hide/show(again, your choice), you will type again () followed by a semi-colan. (the jQuery commands are cap-sensitive so it should all be lowercase right now except for the tag you're using)</p>
+    <p>Sorry if that was poorly explained but it should look something like the following.</p>
+    <p>$(".banana").show();</p>
+    <p>You can also use toggle to just make it toggle everytime this code is ran.</p>
+    <hr>
+    <h3>Interactions</h3>
+    <p>Ok, so now everytime your code is first ran, you will have something hidden or revealed. Cool I guess? Now let's make it be able to be ran while our code is active.</p>
+    <p>What we're going to need to do is setup a click event so that when something is clicked it will react to it. I'd recommend having some HTML to set with this.</p>
+    <button id="toggleExBtn" class="button">Example</button>
+    <p id="toggleEx" hidden>This is an example of the toggle in action</p>
+    <p>First we need to select the button that will cause the event.   
+    $("Target") following this up we are going to add the .click event followed by the () and within these () you are going to type function() {} and within the {} you will add your code. Should look like the following.</p>
+    <p>$("Target").click(function(){<br>
+        $("Target").toggle();<br>
+    });</p>
     
     <!---------------->
     <!-- JS SCRIPTS -->

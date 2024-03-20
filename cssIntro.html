@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- Favicon + Tab Title-->
-    <link rel="shortcut icon" href="img/hrm.png"/>
-    <title>HTML Ultra-Cut</title>
+    <link rel="shortcut icon" href="img/paintbrush.webp"/>
+    <title>CSS TIME WOOO</title>
     </head>
     <!-- Nav Bar -->
     <nav>
@@ -23,14 +23,123 @@
                 <h2><a href="setupIntro.html"><i class="fa-solid fa-file"></i> Setup,</a> <a href="htmlIntro.html"><i class="fa-solid fa-code"></i> HTML,</a> <a href="cssIntro.html"><i class="fa-solid fa-hashtag"></i> CSS,</a> <a href="jqueryIntro.html"><i class="fa-brands fa-js"></i> jQuery</a></h2>
             </div>
             <div class="col-2">
-                <a target="_blank" href="https://b-llama.carrd.co/"><image src="img/TheBoy.png" height="75px"></image></a>
+                <a target="_blank" href="https://b-llama.carrd.co/"><image src="img/TheBoy.png" height="70px"></image></a>
             </div>
         </div>
     </nav>
-<body>
+<body id="THICK">
 <header>
     <h3 id="colan3" hidden>>:3</h3>
-    <h3><i class="fa-solid fa-hashtag" class="htmlThingy"></i> Cascading Style Sheets <i class="fa-solid fa-hashtag" class="htmlThingy"></i></h3></header>
+    <h3><i class="fa-solid fa-hashtag" class="htmlThingy"></i> Cascading Style Sheets <i class="fa-solid fa-hashtag" class="htmlThingy"></i></h3>
+</header>
+<h1>CSS!?!?!?!?!?!??!?!??!??!?!??!!??!?!?!?!??!</h1>
+<h6>Make sure you have your css linked, this was explained on the setup page</h6>
+<p>CSS is the paint of the canvas, the folds of the paper, the decoration on the HTML, wait...</p>
+<p>CSS is used to style or HTML code by changing the color of the text, the size of an image, or the alignment of the text, it is used for many things so it is essential to know. In concept CSS is easier than HTML but at the same time, it is more difficult to use due to it's many steps. Luckily because your code doesn't get graded each time you test it, trial and error is very practical here.</p>
+<p>CSS is best used when stacked with itself. If it's just on it's own it kind of looks weird... Remember, if it looks done, is there anything you could do to add to it?</p>
+<hr>
+<div class="row">
+    <div class="col-8">
+        <h3>Syntax</h3>
+        <p>FIRST! Target a tag of your choice, you can target classes and IDs as well. Classes will have a "." before them and IDs will have a "#". Classes are meant to be used for multiple targets while ID's are meant for one.</p>
+        <p>Ex: h1 {} .cheese {} #watTheDogDoin? {}</p>
+        <p>Now that you got your target, you're going to type it into your CSS file and then put a curly bracket after it.</p>
+        <p>Your CSS for this target will go within the curly brackets {text-align:center;} Also this is typically not caps-sensitive.</p>
+    </div>
+    <div class="col-4">
+        <h3>Example:</h3>
+        <image src="img/CSSDemo.png" width="100%"></image>
+    </div>
+</div>
+<br>
+<hr>
+<h3>CSS TAGS WOO</h3>
+<p>Quick note: For anything using colors, you may use hexcodes, whole words(like "red", or "aqua"), or the actual RGB value.</p>
+<ul>
+    <li>
+        <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/colors/default.asp"><h4 style="color:red">Color: Red;</h4></a>
+        <p>Using the color tag you can change the color of your text in your desired fields.</p>
+    </li>
+    <li>
+        <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/css/css_background.asp"><h4 style="background:blue;">Background: blue;</h4></a>
+        <p>This will change the background of your desired selection</p>
+    </li>
+    <li>
+        <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/css/css_border.asp"><h4 style="border: 2px blue solid">Border: 2px blue solid</h4></a>
+        <p>The Border tag will let you set the thickness, color, and style of the border. Also, you can use border-radius to make it curve the selected amount of pixels that you want.</p>
+    </li>
+    <li>
+        <h4 style="margin:10px;padding:10px;border:1px gray solid"><a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/css/css_margin.asp">Margin: 10px;</a> <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/css/css_padding.asp">Padding 10px;</a></h4>
+        <p>Margin and Padding are both for supplying spacing between the target and it's surroundings. Thinking as if a package, padding will provide more space from the inner wall to the target while margin will increase the distance between the outside wall from other targets. (The border tag will set the thickness of this wall). You can also set the margin to auto to center on the screen.</p>
+        <image src="img/box-sizing.png" width="100%"></image>
+    </li>
+    <li>
+        <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/cssref/pr_text_text-align.php"><h4 class="CSSIntroTag" style="text-align:center">Text-align: center;</h4></a>
+        <p>This aligns your text. Simple. (Left, Right, Center)</p>
+    </li>
+    <li>
+        <a href="https://www.w3schools.com/cssref/pr_font_font-size.php" target="_blank" style="font-size: 24px;" class="CSSIntroTag"><h4>Font-size: 24px;</h4></a>
+        <p>The font-size tag let's you change the size of your font.</p>
+    </li>
+    <li>
+        <h4><a class="CSSIntroTag" target="_blank" style="text-decoration: overline underline; color:black;" href="https://www.w3schools.com/cssref/pr_text_text-decoration.php">Text-decoration: overline underline;</a></h4>
+        <p>I rarely use this tag but it lets you decorate your text. You can set your text to be underlined, overlined, striked-through, italicized, or bold. I usually use this to hide my a tags by hidding the underscore and painting it black instead of the default blue :P</p>
+    </li>
+    <li>
+        <h4><a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/cssref/pr_dim_width.php">Width:75%;</a> <a class="CSSIntroTag" target="_blank" href="https://www.w3schools.com/cssref/pr_dim_max-width.php">Max-Width: 300px;</a></h4>
+        <div class="row">
+            <div class="col-6">
+                <p>This applies to images and boxes not just stand alone text. An example of using this property is the css I used for the body of these webpages, I have a max-width of 540 pixels meaning that the page will stretch until it hits that width, at that point it will stop stretching and remain frozen until it goes below that threshold. (This can be used for the height as well, just replace the word "width" with "height")</p>
+            </div>
+            <div class="col-6">
+                <image src="img/bodyExample.png" width="100%">
+            </div>
+        </div>
+    </li>
+</ul>
+<hr>
+<h3>Column Based Design</h3>
+<div class="row">
+    <div class="col-8">
+        <p class="thinBorder">Column Based Design is the idea to stack columns next to each other. What we are quite literally doing are creating rows to place our data within and then adding columns within those rows to develop stacking columns within the same row. The code on the right makes it easy so you already have the CSS and just require the HTML.</p>
+        <p class="thinBorder">When working with Column Based Design, you will make different 2+ divs, one will be for the row that your info will go in and the other will be within this row div to make the columns. The row divs class will be "row" and the columns div could be anywhere from "col-1" to "col-12", this is based on how wide you want the box to be, so if it's col-6, then the box will take up half of the selections width. (HTML example below)</p>
+        <image src="img/HTMLColumnBasedDesignExample.png" width="100%" class="thinBorder"></image>
+        <div class="row">
+            <div class="col-6">
+                <image src="img/example.jpeg" width="100%" class="thinBorder"></image>
+            </div>
+            <div class="col-6">
+                <image src="img/example.jpeg" width="100%" class="thinBorder"></image>
+            </div>
+        </div>
+    </div>
+    <div class="col-4" class="thinBorder">
+        <image src="img/Column Based Design.png" width="100%" class="thinBorder"></image>
+    </div>
+</div>
+<hr>
+<h3>Flexbox (oh gosh)</h3>
+<div class="row">
+    <div class="col-8">
+        <p>Flexbox is a really difficult concept to understand and half the time I just play with settings until I find something that works. With Flexbox uses the a parent type relation with it's elements. This means that if there is a div with a paragraph tag inside, the paragraph tag being within the div would be a child and the div would be the parent on the outside. The reason this is important is because some CSS properties must be given to the parent and it will apply it to the children. The parent and children may also be called the container and items.</p>
+    </div>
+    <div class="col-4">
+        <image src="img/parent_child.png" width="100%"></image>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <h4>Align-Content</h4>
+        <p>Align -Content similar to Text-Align will align all of your targets in a certain way.</p>
+    </div>
+    <div class="col-6">
+        <h4>Justify-Content</h4>
+        <p>Justify-Content will stretch the margin between your children to an even amount based on the selection.</p>
+    </div>
+</div>
+<p>(Click Image below to Download)</p>
+<a href="img/FlexboxCheatSheet.png" download><image src="img/FlexboxCheatSheet.png" width="100%"></image></a>
+
    
     
     <!---------------->

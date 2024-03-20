@@ -1,5 +1,4 @@
-console.log("Hello World!");
-//$("Select Item").What happens(What happens pt.2)
+console.log("Hello Mortal Human! How are thy doing?");
 $("#hewo").text("Hello Human o/");
 // Main Menu Dropdown(Probably a better way to do this)
 $(".aboutMeBtn").click(function () { 
@@ -62,4 +61,8 @@ $("#jqueryInfoBtn").click(function (){
 $("#setupBtn").click(function (){
     $(".setup").slideToggle();
     $("#setupBtn i").toggleClass("rotated");
+});
+$("#toggleExBtn").click(function () { 
+    $("#toggleEx").toggle();
+    
 });
