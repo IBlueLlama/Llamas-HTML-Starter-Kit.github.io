@@ -13,7 +13,6 @@ nav {
     width:100%;
     color: white;
     height:75px;
-    max-height: 75px;
     display:inline;
     text-align: center;
     border-top: 0px;
@@ -30,7 +29,7 @@ nav img {
 body {
     max-width:540px;
     margin:auto;
-    margin-top:75px;
+    margin-top:80px;
     background-color: #70ffe7;
     border-radius: 10px;
     border: 4px #546c71 solid;
@@ -201,3 +200,25 @@ header i {
   .center-cross {
     align-items: center;
   }
+
+  /* RESPONSIVE SCREEN :3 */
+    @media screen and (max-width:690px) {
+        nav {height:145px; font-size:0px;}
+        nav i {font-size:55px; padding:10px; padding-left:5%; padding-right:5%;}
+        body {margin-top:150px; width:100%; max-width:90%; font-size:1.2em;}
+        #THICK {margin-top:150px; width:100%; max-width:95%}
+        .profilePic {width:0px;height:0px;margin:0px;border-width:0px;}
+        .container {width:100%}
+        .col-1 {width: 100%;}
+        .col-2 {width: 100%;}
+        .col-3 {width: 100%;}
+        .col-4 {width: 100%;}
+        .col-5 {width: 100%;}
+        .col-6 {width: 100%;}
+        .col-7 {width: 100%;}
+        .col-8 {width: 100%;}
+        .col-9 {width: 100%;}
+        .col-10 {width: 100%;}
+        .col-11 {width: 100%;}
+        .col-12 {width: 100%;}
+    }

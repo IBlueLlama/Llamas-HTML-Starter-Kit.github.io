@@ -64,5 +64,4 @@ $("#setupBtn").click(function (){
 });
 $("#toggleExBtn").click(function () { 
     $("#toggleEx").toggle();
-    
 });
