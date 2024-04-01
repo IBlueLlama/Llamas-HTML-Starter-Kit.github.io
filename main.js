@@ -65,3 +65,60 @@ $("#setupBtn").click(function (){
 $("#toggleExBtn").click(function () { 
     $("#toggleEx").toggle();
 });
+$("#setupIMG1").mouseover(function () {
+    $("#setupIMG1").hide();
+    $("#setupIMG2").show();
+});
+$("#setupIMG2").mouseleave(function () {
+    $("#setupIMG1").show();
+    $("#setupIMG2").hide();
+});
+$("#cssWave1").mouseover(function () {
+    $("#cssWave1").hide();
+    $("#cssWave2").show();
+});
+$("#cssWave2").mouseleave(function () {
+    $("#cssWave1").show();
+    $("#cssWave2").hide();
+});
+$("#jqPopup1").mouseover(function () {
+    $("#jqPopup1").hide();
+    $("#jqPopup2").show();
+});
+$("#jqPopup2").mouseleave(function () {
+    $("#jqPopup1").show();
+    $("#jqPopup2").hide();
+});
+// Ricks:
+$("#setupTip1").mouseover(function () {
+    $("#setupTip1").hide();
+    $("#setupRick1").show();
+});
+$("#setupRick1").mouseleave(function () {
+    $("#setupTip1").show();
+    $("#setupRick1").hide();
+});
+$("#setupTip2").mouseover(function () {
+    $("#setupTip2").hide();
+    $("#setupRick2").show();
+});
+$("#setupRick2").mouseleave(function () {
+    $("#setupTip2").show();
+    $("#setupRick2").hide();
+});
+$("#setupTip3").mouseover(function () {
+    $("#setupTip3").hide();
+    $("#setupRick3").show();
+});
+$("#setupRick3").mouseleave(function () {
+    $("#setupTip3").show();
+    $("#setupRick3").hide();
+});
+$("#setupTip4").mouseover(function () {
+    $("#setupTip4").hide();
+    $("#setupRick4").show();
+});
+$("#setupRick4").mouseleave(function () {
+    $("#setupTip4").show();
+    $("#setupRick4").hide();
+});
