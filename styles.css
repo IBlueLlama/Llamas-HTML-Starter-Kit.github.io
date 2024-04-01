@@ -64,7 +64,7 @@ header i {
     padding: 10px;
     list-style: none;
 }
-.wide ul li{
+ul li{
     padding: 10px;
     margin-left: -1px;
     border: #546c71 2px solid;
@@ -73,6 +73,10 @@ header i {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     cursor:pointer;
+}
+.clickedBtn {
+    background: #ffffff;
+    border-bottom: #00000000;
 }
 .dropdowns {
     border-radius: 5px;
@@ -95,18 +99,17 @@ header i {
 }
 .popup {
     position:absolute;
-    top:0px;
-    border:2px #546c71 solid;
+    margin-top:30px;
+    border:3px #546c71 solid;
+    padding:5px;
     border-radius: 5px;
-    background:#546c7180
+    background:#546c7180;
+    cursor:pointer;
+    width:20%;
 }
 .whereTo a {
     color:navy;
     text-decoration: none;
-}
-.clickedBtn {
-    border-bottom: #00000000;
-    background: #ffffff;
 }
 .rotated {
     transform: rotate(90deg);

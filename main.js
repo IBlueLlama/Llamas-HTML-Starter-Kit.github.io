@@ -1,5 +1,11 @@
 console.log("Hello Mortal Human! How are thy doing?");
 $("#hewo").text("Hello Human o/");
+$("header").mouseover(function () {
+    $("#colan3").show();
+});
+$("header").mouseleave(function () { 
+    $("#colan3").hide();
+});
 // Main Menu Dropdown(Probably a better way to do this)
 $(".aboutMeBtn").click(function () { 
     $(".whyMade").hide();
@@ -8,12 +14,6 @@ $(".aboutMeBtn").click(function () {
     $(".aboutMeBtn").toggleClass("clickedBtn");
     $(".whyMadeBtn").removeClass("clickedBtn");
     $(".whereToBtn").removeClass("clickedBtn");
-});
-$("header").mouseover(function () {
-    $("#colan3").show();
-});
-$("header").mouseleave(function () { 
-    $("#colan3").hide();
 });
 $(".whyMadeBtn").click(function () { 
     $(".aboutMe").hide();
