@@ -74,7 +74,7 @@
     <h3>Slightly More Complicated Tricks</h3>
     <p>First things first, we have hide and show, but let's say we wanted to make it animated so it's not an instant cut, we have two options. We have slide and fade. Both of these work nearly the exact same as hide and show, in face if you were to swap in slideDown or fadeIn for a show, it would work. Do note, you can set the duration of this transition within the () next to the effect(example below).</p>
     <p>$("Target").slideDown(0.4s);</p>
-    <ul>
+    <ol>
         <div class="row">
             <div class="col-4">
                 <li><p>show = slideDown</p></li>
@@ -89,7 +89,7 @@
                 <li><p>toggle = fadeToggle</p></li>
             </div>
         </div>
-    </ul>
+    </ol>
     <p>You can also make the mouse interaction more advance by adding things like mouseover or mouseleave. This can be used to replace the click command and when the mouse goes over the element or rather leaves the element, it will run the code. Great for menus that expand when your cursor is over it and retract when your cursor leaves.</p>
     <p>Finally, we have toggleClass, this is a very useful but annoying to work with tag. In theory it is quite simple, when ran it will apply, remove, or toggle the class from the element, meaning this class must be defined in your CSS before it can be applied. Do note, that the class this is being added does not have a . before it because jQuery knows it is and will be a class.</p>
     <p>$("Target").addClass("Class");<br>$("Target").removeClass("Class");<br>$("Target").toggleClass("Class");</p>

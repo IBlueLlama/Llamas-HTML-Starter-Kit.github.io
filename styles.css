@@ -205,7 +205,7 @@ ul li{
   }
 
   /* RESPONSIVE SCREEN :3 */
-    @media screen and (max-width:690px) {
+    @media screen and (max-width:700px) {
         nav {height:145px; font-size:0px;}
         nav i {font-size:55px; padding:10px; padding-left:5%; padding-right:5%;}
         body {margin-top:150px; width:100%; max-width:90%; font-size:1.2em;}
